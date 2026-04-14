@@ -1,0 +1,6 @@
+User_ID,User_Type,Category,Ingredient,Quantity,Purchase_Date,Expiry_Date,Used_Date,Status,Waste_Score
+23,Careful,Meat,Chicken,5,2025-01-14,2025-01-16,2025-01-15,Used,7.5
+41,Average,Meat,Chicken,5,2025-01-29,2025-02-01,,Wasted,7.5
+42,Wasteful,Meat,Fish,5,2025-01-02,2025-01-03,,Wasted,7.5
+47,Careful,Meat,Chicken,5,2025-01-24,2025-01-26,2025-01-24,Used,7.5
+42,Wasteful,Meat,Chicken,5,2025-01-01,2025-01-03,2025-01-02,Used,7.5
