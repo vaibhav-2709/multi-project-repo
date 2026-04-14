@@ -74,28 +74,33 @@ streamlit run app/streamlit_app.py
 
 ---
 
-**⚡ Project 2 –
+# ⚡ Project 2 – Smart Electricity Bill Optimizer AI
 
-Smart Electricity Bill Optimizer AI
-
-🚀 Overview**
+## 🚀 Overview
 
 This project is an AI-based system that helps users analyze, predict, and optimize household electricity usage.
 
-**It shows:**
+It shows:
+- Which time periods consume the most electricity
+- Estimated electricity bill
+- Cost-saving strategies
+- Potential savings using different scenarios
 
-Which time periods consume the most electricity
-Estimated electricity bill
-Cost-saving strategies
-Potential savings using different scenarios
-**💡 Features**
-📊 Electricity usage analysis
-🔮 Cost prediction using Machine Learning
-⚡ Optimization suggestions
-🧪 Simulation (reduce usage & shift timing)
-🌙 Time-based tariff optimization
-🌐 Interactive UI (Streamlit dashboard)
-**📁 Project Structure**
+---
+
+## 💡 Features
+
+- Electricity usage analysis
+- Cost prediction using Machine Learning
+- Optimization suggestions
+- Simulation (reduce usage & shift timing)
+- Time-based tariff optimization
+- Interactive UI (Streamlit dashboard)
+
+---
+
+## 📁 Project Structure
+
 electricity-bill-optimizer-ai/
 ├── data/
 │   ├── raw/
@@ -114,61 +119,77 @@ electricity-bill-optimizer-ai/
 ├── results/
 ├── requirements.txt
 └── README.md
-**📊 Dataset**
-Real-world household electricity consumption dataset
-Includes:
-Voltage
-Current (intensity)
-Power consumption
-Time (date & hour)
+
+---
+
+## 📊 Dataset
+
+- Real-world household electricity consumption dataset
+- Includes:
+  - Voltage
+  - Current (intensity)
+  - Power consumption
+  - Date and time
+
 Data Processing:
-Handled missing values (? → cleaned)
-Converted data into numeric format
-Combined date & time → datetime
-Created features:
-Hour
-Day
-Month
-**🤖 Model**
-Used Random Forest Regressor
-Predicts electricity consumption and cost
-Trained using:
-Time features
-Electrical parameters
-**🧪 Simulation**
+- Handled missing values (? → cleaned)
+- Converted data into numeric format
+- Combined date and time into datetime
+- Created features:
+  - Hour
+  - Day
+  - Month
+
+---
+
+## 🤖 Model
+
+- Used Random Forest Regressor
+- Predicts electricity consumption and cost
+- Trained using time-based and electrical features
+
+---
+
+## 🧪 Simulation
 
 The system allows users to test:
+- Reduce electricity usage
+- Shift usage to cheaper (night) hours
 
-🔻 Reduce electricity usage
-🌙 Shift usage to cheaper (night) hours
+Outputs:
+- Original cost
+- Optimized cost
+- Total savings
 
-**Outputs:**
+---
 
-Original cost
-Optimized cost
-Total savings
-🖥 UI Dashboard
+## 🖥 UI Dashboard
 
 Built using Streamlit
 
-**User can:**
+User can:
+- Adjust usage reduction (%)
+- Select time shift (day/night)
+- View:
+  - Cost comparison
+  - Savings
+  - Graphs
+  - Smart insights
 
-Adjust usage reduction (%)
-Select time shift (day/night)
-View:
-Cost comparison
-Savings
-Graphs
-Smart insights
-▶️ How to Run
-Install dependencies
+---
+
+## ▶️ How to Run
+
+Install dependencies:
 pip install -r requirements.txt
-Run backend modules
+
+Run backend:
 python src/data_preprocessing.py
 python src/usage_analyzer.py
 python src/cost_predictor.py
 python src/simulation_engine.py
-Run UI
+
+Run UI:
 streamlit run app/streamlit_app.py
 
 # ⚡ Project3 – Smart Food Waste Reduction AI
