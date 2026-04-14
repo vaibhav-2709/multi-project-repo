@@ -1,4 +1,4 @@
-# Projject 1-
+# Project 1-
 Smart Data Usage Optimizer AI
 
 ## 🚀 Overview
